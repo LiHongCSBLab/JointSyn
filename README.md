@@ -15,7 +15,9 @@ This repository contains the code and data for "Dual-view jointly learning impro
 - rdkit >= 2022.03.2
 - networkx >= 2.8.6
 
-## Usage
+## Data Preprocessing
+The O’Neil and NCI-ALMANAC drug synergy datasets were downloaded from the [DrugComb database](https://drugcomb.fimm.fi/) and removed outliers.
+
 ```bash
 # for regression task
 cd Model/JointSyn_reg
