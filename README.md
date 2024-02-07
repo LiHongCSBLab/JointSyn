@@ -16,8 +16,6 @@ This repository contains the code and data for "Dual-view jointly learning impro
 - networkx >= 2.8.6
 
 ## Usage
-### Test
-Use the saved model weights file predict the novel drug-drug-cell line in O'Neil dataset
 ```bash
 # for regression task
 cd Model/JointSyn_reg
@@ -26,3 +24,11 @@ python main.py
 cd Model/JointSyn_cls
 python main.py
 ```
+### Test
+Use the saved weights predict the novel drug-drug-cell line in O'Neil dataset. Set split_flag=0, train_flag=0 and test_flag=1 in main.py.
+
+### Train
+Train the model with new dataset. Set split_flag=1, train_flag=1 and test_flag=1 in main.py. Put the preprocessed data into /rawData folder.
+
+
+
