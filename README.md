@@ -32,10 +32,10 @@ cd Model/JointSyn_cls
 python main.py
 ```
 ### Train
-Set `split_flag=1, train_flag=1 and test_flag=1` in `main.py`. Put the preprocessed data into `./Model/JointSyn_reg/rawData folder`.
+Set `split_flag=1, train_flag=1 and test_flag=1` in `main.py`. Put the preprocessed data into `./Model/JointSyn_reg/rawData` folder.
 
 ### Test
-Use the saved weights predict the novel drug-drug-cell line. Set `split_flag=0, train_flag=0 and test_flag=1` in `main.py`. Put the saved weights into `./Model/JointSyn_reg/save folder`.
+Use the saved weights predict the novel drug-drug-cell line. Set `split_flag=0, train_flag=0 and test_flag=1` in `main.py`. Put the saved weights into `./Model/JointSyn_reg/save` folder.
 
 
 
