@@ -1,6 +1,6 @@
 # JointSyn
-
 This repository contains the code and data for "Dual-view jointly learning improves personalized drug synergy prediction"
+![](./Figure/JointSyn_overview.png)
 
 ## Requirements
 
