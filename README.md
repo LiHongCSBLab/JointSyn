@@ -26,7 +26,7 @@ python main.py
 ```
 
 ### Train
-Train the model with new dataset. Set split_flag=1, train_flag=1 and test_flag=1 in main.py. Put the preprocessed data into /rawData folder.
+Train the model with the dataset in /rawData. Set split_flag=1, train_flag=1 and test_flag=1 in main.py. Put the preprocessed data into /rawData folder.
 
 ### Test
 Use the saved weights predict the novel drug-drug-cell line. Set split_flag=0, train_flag=0 and test_flag=1 in main.py. Put the saved weights into /save folder.
